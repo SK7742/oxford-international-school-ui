@@ -1,0 +1,42 @@
+.profileCard {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profileHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.profileIcon {
+    font-size: 48px;
+    color: #002147; /* Oxford Blue */
+}
+
+.profileHeader h2 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+}
+
+.profileDetails p {
+    font-size: 18px;
+    color: #555;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.profileDetails p strong {
+    color: #002147;
+    margin-right: 10px;
+    min-width: 150px;
+    display: inline-block;
+}
